@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65EBCCC19CD5A2D004493AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EBCCB19CD5A2D004493AE /* AppDelegate.swift */; };
+		D65EBCCE19CD5A2D004493AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EBCCD19CD5A2D004493AE /* ViewController.swift */; };
+		D65EBCD119CD5A2D004493AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65EBCCF19CD5A2D004493AE /* Main.storyboard */; };
+		D65EBCD319CD5A2D004493AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65EBCD219CD5A2D004493AE /* Images.xcassets */; };
+		D65EBCD619CD5A2D004493AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65EBCD419CD5A2D004493AE /* LaunchScreen.xib */; };
+		D65EBCE219CD5A2D004493AE /* HoneybeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EBCE119CD5A2D004493AE /* HoneybeeTests.swift */; };
+		D65EBCEF19CD66DC004493AE /* SKAdvisorResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D65EBCEC19CD66DC004493AE /* SKAdvisorResources.bundle */; };
+		D65EBCF019CD66DC004493AE /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D65EBCED19CD66DC004493AE /* SKMaps.bundle */; };
+		D65EBCF519CD6733004493AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCF419CD6733004493AE /* UIKit.framework */; };
+		D65EBCF719CD673F004493AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCF619CD673F004493AE /* Foundation.framework */; };
+		D65EBCF919CD6747004493AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCF819CD6747004493AE /* CoreLocation.framework */; };
+		D65EBCFB19CD6751004493AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCFA19CD6751004493AE /* OpenGLES.framework */; };
+		D65EBCFD19CD6759004493AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCFC19CD6758004493AE /* QuartzCore.framework */; };
+		D65EBCFF19CD6762004493AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBCFE19CD6762004493AE /* CoreGraphics.framework */; };
+		D65EBD0119CD676C004493AE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBD0019CD676C004493AE /* libz.dylib */; };
+		D65EBD0519CD6795004493AE /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBD0419CD6795004493AE /* SKMaps.framework */; };
+		D65EBD0A19CD6AAA004493AE /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EBD0919CD6AAA004493AE /* libstdc++.6.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65EBCDC19CD5A2D004493AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65EBCBE19CD5A2D004493AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65EBCC519CD5A2D004493AE;
+			remoteInfo = Honeybee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D65EBCC619CD5A2D004493AE /* Honeybee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeybee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65EBCCA19CD5A2D004493AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65EBCCB19CD5A2D004493AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D65EBCCD19CD5A2D004493AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D65EBCD019CD5A2D004493AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D65EBCD219CD5A2D004493AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D65EBCD519CD5A2D004493AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D65EBCDB19CD5A2D004493AE /* HoneybeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneybeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65EBCE019CD5A2D004493AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65EBCE119CD5A2D004493AE /* HoneybeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneybeeTests.swift; sourceTree = "<group>"; };
+		D65EBCEC19CD66DC004493AE /* SKAdvisorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKAdvisorResources.bundle; path = "../ScoutMaps-iOS-SDK_2.1.0/SKAdvisorResources.bundle"; sourceTree = "<group>"; };
+		D65EBCED19CD66DC004493AE /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKMaps.bundle; path = "../ScoutMaps-iOS-SDK_2.1.0/SKMaps.bundle"; sourceTree = "<group>"; };
+		D65EBCF419CD6733004493AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D65EBCF619CD673F004493AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D65EBCF819CD6747004493AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D65EBCFA19CD6751004493AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D65EBCFC19CD6758004493AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D65EBCFE19CD6762004493AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D65EBD0019CD676C004493AE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D65EBD0219CD6778004493AE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		D65EBD0419CD6795004493AE /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKMaps.framework; path = "ScoutMaps-iOS-SDK_2.1.0/SKMaps.framework"; sourceTree = "<group>"; };
+		D65EBD0619CD68F9004493AE /* Honeybee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Honeybee-Bridging-Header.h"; sourceTree = "<group>"; };
+		D65EBD0919CD6AAA004493AE /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65EBCC319CD5A2D004493AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65EBD0A19CD6AAA004493AE /* libstdc++.6.dylib in Frameworks */,
+				D65EBD0519CD6795004493AE /* SKMaps.framework in Frameworks */,
+				D65EBD0119CD676C004493AE /* libz.dylib in Frameworks */,
+				D65EBCFF19CD6762004493AE /* CoreGraphics.framework in Frameworks */,
+				D65EBCFD19CD6759004493AE /* QuartzCore.framework in Frameworks */,
+				D65EBCFB19CD6751004493AE /* OpenGLES.framework in Frameworks */,
+				D65EBCF919CD6747004493AE /* CoreLocation.framework in Frameworks */,
+				D65EBCF719CD673F004493AE /* Foundation.framework in Frameworks */,
+				D65EBCF519CD6733004493AE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65EBCD819CD5A2D004493AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65EBCBD19CD5A2D004493AE = {
+			isa = PBXGroup;
+			children = (
+				D65EBD0919CD6AAA004493AE /* libstdc++.6.dylib */,
+				D65EBD0419CD6795004493AE /* SKMaps.framework */,
+				D65EBD0219CD6778004493AE /* libstdc++.dylib */,
+				D65EBD0019CD676C004493AE /* libz.dylib */,
+				D65EBCFE19CD6762004493AE /* CoreGraphics.framework */,
+				D65EBCFC19CD6758004493AE /* QuartzCore.framework */,
+				D65EBCFA19CD6751004493AE /* OpenGLES.framework */,
+				D65EBCF819CD6747004493AE /* CoreLocation.framework */,
+				D65EBCF619CD673F004493AE /* Foundation.framework */,
+				D65EBCF419CD6733004493AE /* UIKit.framework */,
+				D65EBCC819CD5A2D004493AE /* Honeybee */,
+				D65EBCDE19CD5A2D004493AE /* HoneybeeTests */,
+				D65EBCC719CD5A2D004493AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65EBCC719CD5A2D004493AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65EBCC619CD5A2D004493AE /* Honeybee.app */,
+				D65EBCDB19CD5A2D004493AE /* HoneybeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65EBCC819CD5A2D004493AE /* Honeybee */ = {
+			isa = PBXGroup;
+			children = (
+				D65EBCCB19CD5A2D004493AE /* AppDelegate.swift */,
+				D65EBCCD19CD5A2D004493AE /* ViewController.swift */,
+				D65EBCCF19CD5A2D004493AE /* Main.storyboard */,
+				D65EBCD219CD5A2D004493AE /* Images.xcassets */,
+				D65EBD0619CD68F9004493AE /* Honeybee-Bridging-Header.h */,
+				D65EBCD419CD5A2D004493AE /* LaunchScreen.xib */,
+				D65EBCC919CD5A2D004493AE /* Supporting Files */,
+			);
+			path = Honeybee;
+			sourceTree = "<group>";
+		};
+		D65EBCC919CD5A2D004493AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65EBCEC19CD66DC004493AE /* SKAdvisorResources.bundle */,
+				D65EBCED19CD66DC004493AE /* SKMaps.bundle */,
+				D65EBCCA19CD5A2D004493AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D65EBCDE19CD5A2D004493AE /* HoneybeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65EBCE119CD5A2D004493AE /* HoneybeeTests.swift */,
+				D65EBCDF19CD5A2D004493AE /* Supporting Files */,
+			);
+			path = HoneybeeTests;
+			sourceTree = "<group>";
+		};
+		D65EBCDF19CD5A2D004493AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65EBCE019CD5A2D004493AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65EBCC519CD5A2D004493AE /* Honeybee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65EBCE519CD5A2D004493AE /* Build configuration list for PBXNativeTarget "Honeybee" */;
+			buildPhases = (
+				D65EBCC219CD5A2D004493AE /* Sources */,
+				D65EBCC319CD5A2D004493AE /* Frameworks */,
+				D65EBCC419CD5A2D004493AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeybee;
+			productName = Honeybee;
+			productReference = D65EBCC619CD5A2D004493AE /* Honeybee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65EBCDA19CD5A2D004493AE /* HoneybeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65EBCE819CD5A2D004493AE /* Build configuration list for PBXNativeTarget "HoneybeeTests" */;
+			buildPhases = (
+				D65EBCD719CD5A2D004493AE /* Sources */,
+				D65EBCD819CD5A2D004493AE /* Frameworks */,
+				D65EBCD919CD5A2D004493AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65EBCDD19CD5A2D004493AE /* PBXTargetDependency */,
+			);
+			name = HoneybeeTests;
+			productName = HoneybeeTests;
+			productReference = D65EBCDB19CD5A2D004493AE /* HoneybeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65EBCBE19CD5A2D004493AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "chao han";
+				TargetAttributes = {
+					D65EBCC519CD5A2D004493AE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D65EBCDA19CD5A2D004493AE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D65EBCC519CD5A2D004493AE;
+					};
+				};
+			};
+			buildConfigurationList = D65EBCC119CD5A2D004493AE /* Build configuration list for PBXProject "Honeybee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65EBCBD19CD5A2D004493AE;
+			productRefGroup = D65EBCC719CD5A2D004493AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65EBCC519CD5A2D004493AE /* Honeybee */,
+				D65EBCDA19CD5A2D004493AE /* HoneybeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65EBCC419CD5A2D004493AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65EBCF019CD66DC004493AE /* SKMaps.bundle in Resources */,
+				D65EBCD119CD5A2D004493AE /* Main.storyboard in Resources */,
+				D65EBCD619CD5A2D004493AE /* LaunchScreen.xib in Resources */,
+				D65EBCEF19CD66DC004493AE /* SKAdvisorResources.bundle in Resources */,
+				D65EBCD319CD5A2D004493AE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65EBCD919CD5A2D004493AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65EBCC219CD5A2D004493AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65EBCCE19CD5A2D004493AE /* ViewController.swift in Sources */,
+				D65EBCCC19CD5A2D004493AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65EBCD719CD5A2D004493AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65EBCE219CD5A2D004493AE /* HoneybeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65EBCDD19CD5A2D004493AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65EBCC519CD5A2D004493AE /* Honeybee */;
+			targetProxy = D65EBCDC19CD5A2D004493AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D65EBCCF19CD5A2D004493AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65EBCD019CD5A2D004493AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D65EBCD419CD5A2D004493AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65EBCD519CD5A2D004493AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65EBCE319CD5A2D004493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65EBCE419CD5A2D004493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65EBCE619CD5A2D004493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScoutMaps-iOS-SDK_2.1.0",
+				);
+				INFOPLIST_FILE = Honeybee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Honeybee/Honeybee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65EBCE719CD5A2D004493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScoutMaps-iOS-SDK_2.1.0",
+				);
+				INFOPLIST_FILE = Honeybee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Honeybee/Honeybee-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D65EBCE919CD5A2D004493AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneybeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeybee.app/Honeybee";
+			};
+			name = Debug;
+		};
+		D65EBCEA19CD5A2D004493AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneybeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeybee.app/Honeybee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65EBCC119CD5A2D004493AE /* Build configuration list for PBXProject "Honeybee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65EBCE319CD5A2D004493AE /* Debug */,
+				D65EBCE419CD5A2D004493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65EBCE519CD5A2D004493AE /* Build configuration list for PBXNativeTarget "Honeybee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65EBCE619CD5A2D004493AE /* Debug */,
+				D65EBCE719CD5A2D004493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65EBCE819CD5A2D004493AE /* Build configuration list for PBXNativeTarget "HoneybeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65EBCE919CD5A2D004493AE /* Debug */,
+				D65EBCEA19CD5A2D004493AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65EBCBE19CD5A2D004493AE /* Project object */;
+}
